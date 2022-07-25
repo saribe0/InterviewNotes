@@ -1,6 +1,10 @@
 
 # C++
 
+## New C++ Versions
+
+https://github.com/saribe0/modern-cpp-features#special-member-functions-for-move-semantics
+
 ## vs. C
 
 | C | C++ |

@@ -16,10 +16,10 @@ Split the sequence in two and only check the side that has the target item. Repe
 # Graphs
 
 | Algorithm | Complexity | Summary | Applications | Limitations |
-|---|---|---|---|
+|---|---|---|---|---|
 | BFS | O(V+E) | Works way through graph by 'layer' | Search graph, Detect cycles, Check bipartite, Check strongly connected |  |
 | DFS | O(V+E) | Explores deep then backtracks | Search graph, Detect cycles, Check bipartite, Check strongly connected |  |
-| Dijstra's | O(ElogV) to (V^2) | Greedily graphs the node that will keep the path the shortest. | Shortest path to ALL nodes. | Can not have negative cycles |
+| Dijstra's | O(ElogV) to (V^2) | Greedily grabs the node that will keep the path the shortest. | Shortest path to ALL nodes. | Can not have negative cycles |
 | Kosaraju's | O(V+E) | 2x DFS, second in reverse of DFS path | Find all strongly connected components |  |
 | Bellman Fords's | O(VE) | DP evaluation of shortest path to source | Finds shortest path to ALL nodes, Finds negative cycles from node |  |
 | Floyd Warshall's | O(V^3) | DP evaluation of all pairs shortest paths | Finds shortest path to and from ALL nodes, Finds negative cycles from node |  |

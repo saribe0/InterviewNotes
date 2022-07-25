@@ -1,6 +1,6 @@
-vector<> working_stack
+vector<int> working_stack;
 
-void backtrack(vector<int>& candidates, int target, int startingIndex) {
+vector<int> backtrack(vector<int>& candidates, int target, int startingIndex) {
     
     if (target <= 0) {
         return working_stack;
